@@ -18,7 +18,7 @@ arr[i] == 2 * arr[j]
 #include <unordered_set>
 using namespace std;
 
-// Two pass solution
+// Single pass hashtable solution
 class Solution {
 public:
     bool checkIfExist(vector<int>& arr) {
